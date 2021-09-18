@@ -1,0 +1,30 @@
+body{
+    justify-content: center;
+    align-items: center;  
+    text-align: center;  
+}
+
+.backQuadrado{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#quadradoCor{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25%;
+    border:5px black solid
+}
+
+.barrinha{
+    width: 20%;
+    height: 2px;
+}
+
+
+.textValue{
+    width: 1.5%;
+}
+

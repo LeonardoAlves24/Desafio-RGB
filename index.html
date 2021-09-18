@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Desafio RGB</title>
+</head>
+<body>
+    
+        <div class="central">
+            <h1>Desafio RGB</h1>
+            <p>
+            <label>(R):</label> <input class="barrinha" type="range" id="rangeInputNum1" min="0" max="255" step="1" value="0"> <!--A barrinha que muda a cor-->
+            <input class="textValue" type="text" id="inputNum1" value="0" readonly disabled> <!--Isso irá mostrar a o valor da caixa de texto-->
+            </p>
+
+            <p>
+            <label>(G):</label><input class="barrinha" type="range" id="rangeInputNum2" min="0" max="255" step="1" value="0"> <!--A barrinha que muda a cor-->
+            <input class="textValue" type="text" id="inputNum2" value="0" readonly disabled> <!--Isso irá mostrar a o valor da caixa de texto-->
+            </p>
+
+            <p>
+            <label>(B):</label><input class="barrinha" type="range" id="rangeInputNum3" min="0" max="255" step="1" value="0"> <!--A barrinha que muda a cor-->
+            <input class="textValue" type="text" id="inputNum3" value="0" readonly disabled> <!--Isso irá mostrar a o valor da caixa de texto-->
+            </p>
+        </div>
+
+
+
+
+    <div class="backQuadrado">
+        <div class="quadrado" id="quadradoCor">
+ 
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
